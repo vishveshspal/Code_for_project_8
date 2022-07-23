@@ -1,13 +1,13 @@
-mkdir -p ~/.steamlit/
+mkdir -p ~/.streamlit/
 
-echo"\
+echo "\
 [general]\n\
-email=\"21f1005309@student.onlinedegree.iitm.ac.in\"\n\
-"> ~/.streamlit/credentials.toml"
+email = \"21f1005309@onlinedegree.iitm.ac.in\"\n\
+" > ~/.streamlit/credentials.toml
 
-echo"\
+echo "\
 [server]\n\
-headless = treu\n\
-enableCORS = false\n\
-port= $PORT\n\
-" > ~/.streamlit/credentials.toml"
+headless = true\n\
+enableCORS=false\n\
+port = $PORT\n\
+" > ~/.streamlit/config.toml
